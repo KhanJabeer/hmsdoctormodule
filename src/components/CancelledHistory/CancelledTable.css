@@ -1,0 +1,12 @@
+.cell_eye {
+  padding-left: 20px !important;
+}
+.table_row_change tr th:first-child{
+  width: 20% !important;
+}
+.table_row_change  tr th:nth-child(2){
+  width: 30% !important;
+}
+.table_row_change tr th:nth-child(3){
+  width: 35% !important;
+}

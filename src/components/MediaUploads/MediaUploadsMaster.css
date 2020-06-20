@@ -1,0 +1,99 @@
+.uploadsmasterheader{
+height: auto;
+width:100%;
+
+}
+.titleuser{
+font-size: 1.75rem;
+ color: #86b149;
+}
+.doctor_plus-container  {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+}
+.plus-icon{
+ cursor: pointer;   
+}
+.uploadsmasterheader{
+    width:100%;
+    padding: 10px 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Dialogmodal h6{
+
+}
+
+.clinic_details
+{
+	color:white !important;
+	font-size: 12px !important;
+	border:none;
+	
+	padding:8px;
+   
+	
+}
+.clinic_details:focus{
+	background-color:#303f9f !important;
+	}
+.clinic_details
+{
+	color:white !important;
+	font-size: 1.5rem !important;
+	
+	border:none;
+	padding:8px;
+	
+}
+
+.clinic_group_details .MuiButton-root {
+	text-transform:none !important;
+	border-radius: none !important;
+	
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.20) !important;
+
+} 
+.clinic_date_details
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.currentdate{
+	font-size: 1.25rem;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.plus-icon{
+	margin-left: 10px;
+}
+.ant-input-affix-wrapper {
+ width:150px;
+}
+@media screen and (max-width:940px) {
+.uploadmaster_doctor .titleuser{
+	font-size: 12px !important;
+}
+.ant-input-affix-wrapper{
+   width:110px;
+}
+.uploadmaster_doctor .currentdate{
+  font-size: 12px !important;
+}
+.uploadmaster_doctor .clinic_details{
+ width:100px !important;
+ height:38px !important;
+ font-size: 12px !important;
+}
+.uploadmaster_doctor .MuiButtonGroup-root{
+  height: 38px !important;
+}
+.uploadmaster_doctor .clinic_group_details .MuiButton-root {
+ font-size: 12px !important;	
+}
+}

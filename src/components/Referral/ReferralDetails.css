@@ -1,0 +1,172 @@
+.referral_tabs{
+    text-align: center;
+    margin: 10px;
+}
+.doc_pane_title{
+    width:100%;
+    background-color:#FFFFFF;
+    padding: 10px 20px;
+    box-shadow: 0px 1px 4px #00000029;
+    border-radius: 5px 5px 0px 0px;
+    font-weight: 600;
+    display:flex;
+    justify-content: center;
+}
+.drop_doc{
+    margin: 15px;
+    padding: 15px;
+}
+.referral_button{
+    background-color: #86b149;
+    color: white;
+}
+.referral_button.ant-btn:hover,.ant-btn:focus {
+    background-color: #86b149;
+   border-color: #86b149;
+    color: #fff;
+}
+.camera_ref{
+    font-size: 18px;
+    color: #B1B1B1;
+}
+.drop_doc_upload{
+    margin: 15px;
+    padding: 15px;
+    height: 100%;
+    margin-top: 47px;
+    /* display: flex;
+    align-items: center; */
+    /* margin-top: 11.5%; */
+   
+}
+.upload_referral_btn{
+    width: 22vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    border-radius: 2px;
+}
+
+.lab_pane_test{
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-radius: 2px;
+border: 1px solid #B1B1B1;
+margin-top: 4px;
+height: 40px;
+background-color: #FFFFFF;
+
+}
+.lab_test_name{
+    margin: 7px;
+}
+
+.upload_referral_lab_btn {
+    width: 19vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    border-radius: 2px;
+}
+.referral_labtest_checkbox.MuiCheckbox-colorSecondary.Mui-checked{
+    color: #86b149;
+}
+.test_lab_title{
+margin-top: 32px;
+    font-size: 16px;
+    color: #666666;
+    display: block;
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+}
+@media only screen and (max-width: 959px) {
+
+
+.drop_doc {
+    margin: 15px;
+    padding: 15px;
+    width: 65%;
+}
+.drop_doc_upload{
+    margin: 15px;
+    padding: 15px;
+    width: 65%;
+
+}
+.referal_rowone{
+    display:flex;
+    justify-content: center;
+}
+.upload_referral_btn{
+    width: 100%;
+}
+.drop_doc_upload .ant-upload{
+    width: 100%;
+}
+.drop_doc_upload>span{
+    width: 100%;
+}
+}
+.sticky_div{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.sticky_div .lab_pane_container{
+    width: 40%;
+}
+.sticky_div .sticky_div_one{
+
+    max-width: 100%;
+     flex-basis: 90%;
+}
+.sticky_div .upload_referral_lab_btn{
+
+    width: 100%;
+}
+.doc_txtarea{
+    width: 70%;
+}
+@media only screen and (max-width: 959px){
+
+.doc_txtarea{
+    width: 65%;
+}
+ .drop_doc_upload{
+    margin: 15px 15px;
+    padding:15px 15px;
+
+}
+.sticky_div .lab_pane_container {
+    width: 50% !important;
+}
+.sticky_div .ant-upload .ant-btn {
+    padding: 0px 15px !important;
+}
+}
+@media only screen and (max-width: 1220px){
+    .sticky_div .lab_pane_container{
+        width: 35%;
+    }
+    .sticky_div .drop_doc {
+        margin: 15px 5px;
+        padding:15px 5px;
+
+    }
+    .sticky_div .drop_doc_upload{
+        margin: 15px 5px;
+        padding:15px 5px;
+        margin-top: 47px;
+    }
+   
+}
+@media only screen and (max-width: 1100px){
+
+.sticky_div .ant-upload .ant-btn {
+    padding: 0px 3px;
+}
+}

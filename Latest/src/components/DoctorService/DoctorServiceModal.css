@@ -1,0 +1,107 @@
+.formdiv .brdrcls 
+{
+    font-size: 1.5rem !important;
+}
+.formdiv .selectbox .ant-select-selection--single{
+   font-size: 1.5rem !important;
+}
+.medicine_details{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+/* .medicine_details .formdiv{
+    padding-right: 20px;
+} */
+.medicine_mg{
+    width:38%;
+  
+}
+.dosage .formdiv{
+    padding-right: 10px !important;
+}
+.medicine_rate{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin:20px 0px 20px 0px;  
+}
+/* .medicine_container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right:20px;
+} */
+.medicine_container .formdiv{
+    width:100%;  
+    margin-bottom: 10px;
+
+}
+.cancel_medibutt{
+    color:#333 !important;
+    font-size: 15px !important;
+    padding:5px 15px !important;
+    text-transform: none !important;
+    font-family: "Roboto" !important;
+    background: #C9C9C9 !important;
+    border-radius: 2px !important;
+    box-shadow: none !important;
+    margin-right: 20px !important;
+}
+.medicine_container .labelbox_inputs{
+    width:70%;
+}
+.medicine_rate .labelbox_inputs{
+    width:71%;
+}
+.medicine_ratedetails .formdiv .brdrcls{
+  padding:8px !important;
+  font-size: 15px !important;
+
+}
+.medicine_ratedetails .formdiv .labeltxt{
+    color: #3B3B3B !important;
+}
+
+.medicine_rate .formdiv{
+    width:75%;
+    
+}
+.medibutt_container{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+}
+.submit{
+    background-color:#0058d1 !important;
+    color:#fff !important;
+    font-size: 15px !important;
+    padding:5px 15px !important;
+    text-transform: none !important;
+    font-family: "Roboto" !important;
+    border-radius: 2px !important;
+}
+/* @media screen and (max-width: 959px) {
+    .medicine_container
+    {
+        display:inline-block;
+        align-items: center;
+        justify-content: center;
+        width:100%;
+    }
+    .medicine_rate{
+        display:inline-block;
+        align-items: center;
+        width:100%;
+        margin-bottom: 10px;
+
+    }
+    .medicine_rate .formdiv{
+        width:100%;
+    }
+    .medibutt_container{
+        margin-top: 10px;
+    }
+} */

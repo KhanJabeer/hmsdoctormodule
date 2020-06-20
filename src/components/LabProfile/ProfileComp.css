@@ -1,0 +1,41 @@
+.profileback_first{
+    background: transparent linear-gradient(90deg, #A5CF64 0%, #CDE6A5 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width:100%;
+    height:50%;
+    color:#FFFF;
+    font-size: 18px;
+    font-weight: 600;
+    padding:25px 0px 0px 20px;
+}
+.profile_background{
+    height:650px; 
+}
+.profilepaper_container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    top:-222px;
+    position: relative;
+}
+.profilebackground{
+    background: #FFFFFF 0% 0% no-repeat padding-box !important;
+box-shadow: 0px 3px 6px #00000029 !important;
+border-radius: 5px !important;
+}
+
+.trainee_head_two{
+display: flex;
+width: 50%;
+justify-content: space-between;
+}
+.description{
+    width: 100%;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.doc_description{
+    width: 100%;
+    font-size: 14px;  
+}

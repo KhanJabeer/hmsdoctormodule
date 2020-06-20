@@ -1,0 +1,119 @@
+.slot_pane{
+    margin:15px 10px 5px 5px;
+    padding: 10px 20px;
+    background-color: #F8F8F8;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px 5px 0px 0px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.slot_pane_title{
+    font-size: 1.75rem;
+    color: #86b149;
+}
+
+.slot_pane_content{
+    padding: 12px;
+    margin: 5px 10px 5px 5px;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px 5px 0px 0px;
+}
+.pane_row_one{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.slot_checkbox_main .MuiSvgIcon-root{
+    width: 1.15em;
+    height: 1.15em;
+}
+.slot_checkbox_main.MuiCheckbox-colorSecondary.Mui-checked{
+    color: #86b149;
+}
+.slot_date{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.showslot_button{
+    background-color: #E0EBCF !important;
+}
+.showslot_button .MuiButton-label{
+    font-size: 12px !important;
+    color: #86b149 !important;
+    text-transform: capitalize;
+}
+
+.anticon.anticon-right.ant-collapse-arrow{
+    display: none;
+}
+
+.inner_pane_content{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.hidden_slots_pane{
+    border:1px solid;
+    margin-top:15px;
+    padding: 8px;
+}
+
+.hidslot_check{
+    display: flex;
+}
+.slot_cancel{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.pane_row_two{
+        display: flex;
+        justify-content: space-between;
+    
+}
+
+.btn-background_1{
+    background-color:  #86b149!important;
+    font-size: 12px !important;
+    color:white !important;
+    text-transform: capitalize !important;
+    transition: none !important;
+}
+ 
+.btn-background_2{
+    background-color: #E0EBCF !important;
+    font-size: 12px !important;
+    color:  #86b149!important;
+    text-transform: capitalize !important;
+    transition: none !important;
+}
+
+.hiddenslot_checkbox.MuiCheckbox-colorSecondary.Mui-checked{
+    color: #86b149;
+}
+.cancel_slot_buttons{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+    padding: 10px;
+}
+.slotcancel_button{
+    background-color: #B6B6B6 !important;
+    color: black !important;
+    font-size: 12px !important;
+    padding: 5px !important;
+    margin: 5px !important;
+    text-transform: capitalize !important;
+}
+.slot_confrim_button{
+    background-color: #86b149 !important;
+    color: white !important;
+    font-size: 12px !important;
+    padding: 5px !important;
+    margin: 5px !important;
+    text-transform: capitalize !important;
+}

@@ -1,0 +1,196 @@
+.uploadsmasterheader{
+  height: auto;
+  width:100%;
+  
+  }
+  .titleuser{
+  font-size: 18px;
+   color: #86b149;
+   font-weight: 600;
+  }
+  .doctorpatient_head{
+  
+    position: relative;
+    font-size: 1.2vw;
+    color: #333;
+    font-weight: 600;
+    margin-right: 10px;;
+    margin-bottom: 0px !important;
+    top:3px;
+    white-space: nowrap;
+  }
+  
+  .doctor_patienttype .formdiv {
+    width:35%;
+  }
+  .doctor_patienttype{
+    display:flex;
+    align-items: center;
+    width:47%;
+  }
+  .media_service_head .formdiv .selectbox .ant-select-selection--single {
+    padding:0px !important;
+    height:35px !important;
+    display:flex;
+    align-items: center;
+
+
+  }
+    .doctorplus-container {
+      display: flex;
+      /* flex-direction: column; */
+      align-items: center;
+      justify-content: space-between;
+      /* margin-top: 15px; */
+  }
+  .plus-icon{
+   cursor: pointer;   
+  }
+  .media_service_head{
+    width:100%;
+    background-color: #F8F8F8;
+	  padding: 10px 20px;
+	  box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px 5px 0px 0px;
+	  height:110px;
+   	font-weight: 600;
+}
+.doctorappoint_container{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+  
+  
+  .clinic_details:focus{
+    background-color:#0B51C5 !important;
+    }
+  .clinic_details
+  {
+    color:white !important;
+    font-size: 1.5rem !important;
+    border:none;
+    padding:8px; 
+  }
+  
+  
+  .clinic_date_details
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .currentdate{
+      font-size: 1.25rem;
+      font-weight: 600;
+      color:#545454 !important;
+      white-space: nowrap;
+  }
+  .doctor_type_head{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 5px;
+    margin-right: 15px;
+  }
+  .right_arrowicon{
+    font-size: 2.5rem !important;
+    cursor: pointer;
+    position: relative;
+    top: -2px;
+  }
+  .group_buttons_div{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .appcurrentdate{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.2vw !important
+  }
+  
+
+
+  .dashboard_master .MuiButtonGroup-root {
+    /* box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.20) !important; */
+    box-shadow: 0px 2px 5px #00000033;
+    border-radius: 2px 0px 0px 2px !important;
+    height: 40px !important;
+  }
+  .clinic_group_details .MuiButton-root {
+    text-transform:none !important;
+    border-radius: 0px !important;
+    font-size: 1.5rem !important;
+    padding:5px 15px !important;
+    border: none !important;
+    box-shadow: 0px 2px 5px #00000033 !important;
+  } 
+  .trainer_dashboard_master .MuiButtonGroup-root{
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.20) !important;
+  }
+  .clinic_details
+  {
+    color:white !important;
+    font-size: 14px !important;
+    background-color:#468DF0!important;
+    border:none;
+    padding:8px;
+    width:120px !important;  
+    height:42px !important;
+    font-family: "Roboto" !important;
+    
+  }
+  .search_box_container .ant-input{
+    border: 1px solid #D8D8D8 !important;
+    color:#333333 !important;
+    font-family: "Roboto" !important;
+    font-size: 16px !important;
+    font-weight: 100 !important;
+    height: 37px !important;
+  }
+  @media screen and (max-width: 1000px) {
+   .doctorpatient_head {
+    font-size: 10px;
+  }
+  .patientselect_div{
+    width:110px !important;
+    margin-right: 15px;
+  }
+  .appoint_dashboard_master .titleuser{
+    font-size: 15px !important;
+  }
+  
+ .appoint_dashboard_master .currentdate{
+  font-size: 10px !important;
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+ .appoint_dashboard_master .clinic_details{
+ width:80px !important;
+ height:40px !important;
+ font-size: 10px !important;
+}
+.appoint_dashboard_master .clinic_details .MuiButtonGroup-root {
+  height:34px !important;
+}
+.appoint_dashboard_master .MuiButton-root{
+  padding:5px 8px !important;
+  font-size: 10px !important;	
+}
+.appoint_dashboard_master .search_box_container{
+  width:100px !important;
+}
+.media_service_head .formdiv .selectbox .ant-select-selection--single{
+  font-size: 12px !important;
+}
+.appoint_dashboard_master .search_box_container .ant-input{
+   height:34px !important;
+   font-size: 12px !important;
+
+}
+  }
